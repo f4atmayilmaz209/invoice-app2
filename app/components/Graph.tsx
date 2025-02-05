@@ -5,7 +5,7 @@ import { Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 interface iAppProps{
     data:{
         date:string;
-        amount:string;
+        amount:number;
     }[]
 }
 
