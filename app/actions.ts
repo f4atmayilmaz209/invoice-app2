@@ -8,6 +8,7 @@ import { redirect } from "next/navigation";
 import { emailClient } from "./utils/mailtrap";
 import { formatCurrency } from "./utils/formatCurrency";
 
+
 export async function onboardUser(prevState:any,formData:FormData){
     const session=await requireUser();
 
